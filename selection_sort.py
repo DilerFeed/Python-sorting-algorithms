@@ -25,7 +25,7 @@ def main():
     print("Початковий масив:")
     print(array)
 
-    # Сортування вставками
+    # Сортування вибором
     ref_time = time.perf_counter()
     # Для кожного елементу масиву
     for step in range(N):
