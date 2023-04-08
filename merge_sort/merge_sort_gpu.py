@@ -2,6 +2,8 @@ import random
 import time
 from numba import jit, cuda, numba
 
+# Для обчислення на ядрах CUDA відеокарт Nvidia (можливо підвищення швидкості на 10-25%)
+
 def main():
     # Заповнюємо масив для сортування
     type = 1
