@@ -1,0 +1,8 @@
+How to use:
+1) Copy all files into one folder (you don't have to copy the .pyx file).
+2) Run the merge_sort_fast.py file.
+
+If you want to edit the code, then:
+1) Download the merge_sort_light.pyx file. Modify its contents (be aware that the Cython language is used).
+2) Compile the code for this file using Cython or Cythonbuild.
+3) If the file name has been changed, change it in the call in the merge_sort_fast.py file.
