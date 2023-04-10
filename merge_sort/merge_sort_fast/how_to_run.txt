@@ -1,5 +1,5 @@
 How to use:
-1) Copy all files into one folder (you don't have to copy the .pyx file).
+1) Copy all files into one folder (you don't have to copy how_it_looks_on_c.c and merge_sort_light.pyx files).
 2) Run the merge_sort_fast.py file.
 
 If you want to edit the code, then:
