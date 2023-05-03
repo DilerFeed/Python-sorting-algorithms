@@ -13,10 +13,10 @@ def main():
     # Випадкове заповнення маленькими елементами (середній випадок)
     elif type == 2:
         for i in range(N):
-            array.append(random.randint(0, (N // 5)))
+            array.append(random.randint(0, N))
     # Випадкове заповнення маленькими однаковими елементами (найкращий випадок)
     elif type == 3:
-        num = random.randint(0, (N // 5))
+        num = random.randint(0, N)
         for i in range(N):
             array.append(num)
 
